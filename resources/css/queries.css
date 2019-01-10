@@ -1,0 +1,75 @@
+
+/*Big tablets to 1200px (widths smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px) {
+    
+}
+
+
+/* Small tablets to big tablets: from 788px to 1023px */
+@media only screen and (max-width: 1023px) {
+    html,body { font-size: 16px; }
+    .logo {
+    float: left;
+    margin-left: 50px;
+    margin-top: 45px;
+    height: 40px;
+    width: auto;
+    }
+    
+    .market-img-box {
+        padding-top: 110px;
+        padding-left: 0!important;
+    }
+    .market-logo {
+    height: 24px;
+    width: auto;
+    float: left;
+    }
+    
+}
+
+
+/* small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+   html,body { font-size: 15px; }
+    .main-nav { display: none; }
+    .logo {
+        float: left;
+        margin-left: 50px;
+        margin-top: 45px;
+        height: 30px;
+        width: auto;
+    }
+    .market-img-box {
+        padding-left: 0!important;
+    }
+    
+    .mobile-nav-icon { display: inline-block; }
+     .main-nav {
+        float: left; 
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+    .main-nav li {
+        display: block;
+    }
+    .main-nav li a:visited,
+    .main-nav li a:link {
+        display: block;
+        border:0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    }
+    .sticky .main-nav { margin-top: 10px; }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 15px;}
+    .sticky .mobile-nav-icon ion-icon { color: #555;}
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    
+}
