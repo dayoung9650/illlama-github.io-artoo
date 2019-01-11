@@ -25,6 +25,25 @@
     width: auto;
     float: left;
     }
+    .market-logo-box{
+        width: 85%;
+    }
+    .market-img-box-box {
+        margin-left: 4%;
+    }
+    .market-img-4,
+    .market-img-5,
+    .market-img-6 {
+        width: 200px;
+    }
+    .market-img-1,
+    .market-img-2,
+    .market-img-3,
+    .market-img-7,
+    .market-img-8,
+    .market-img-9 {
+        width: 170px;
+    }
     
 }
 
@@ -60,16 +79,112 @@
         padding: 10px 0;
         font-size: 100%;
     }
-    }
     .sticky .main-nav { margin-top: 10px; }
     .sticky .main-nav li a:link,
     .sticky .main-nav li a:visited { padding: 10px 0; }
     .sticky .mobile-nav-icon { margin-top: 15px;}
     .sticky .mobile-nav-icon ion-icon { color: #555;}
 
-
+    .section-market {
+        background-image: url();
+    }
+    .market-logo-box{
+        width: 100%;
+    }
+    .market-img-box-box {
+        margin-left: 4%;
+    }
+    .market-img-4,
+    .market-img-5,
+    .market-img-6 {
+        width: 150px;
+        margin-top: 8px;
+    }
+    .market-img-1,
+    .market-img-2,
+    .market-img-3,
+    .market-img-7,
+    .market-img-8,
+    .market-img-9 {
+        width: 120px;
+        margin-top:8px;
+    }
+    .market-img-row1,
+    .market-img-row2,
+    .market-img-row3 {
+        width: 150px;
+        padding:3px;
+    }
+    .logo-font {
+        height: 40px;
+    }
+    .critic-img-1 {
+        width: 130px;
+    }
+    .critic-trigger {
+        width: 100%;
+        height: 300px;
+    }
+    .market-img-box-box {
+        height: 97vh;
+    }
+    .header-appstore,
+    .header-playstore {
+        padding-top:40px;
+        margin: 0 20px;
+        width: 150px; 
+    }
+    .info-app-box{
+        height: 200px;
+    }
+    .info-app-box p {
+        display: none;
+    }
+}
+  
 
 /* Small phones: from 0 to 480px */
-@media only screen and (max-width: 480px) {
-    
+@media only screen and (max-width: 550px) {
+   .market-img-4,
+    .market-img-5,
+    .market-img-6 {
+        width: 90px;
+        margin-top: 8px;
+    }
+    .market-img-1,
+    .market-img-2,
+    .market-img-3,
+    .market-img-7,
+    .market-img-8,
+    .market-img-9 {
+        width: 60px;
+        margin-top:8px;
+    }
+    .market-img-row1,
+    .market-img-row2,
+    .market-img-row3 {
+        width: 90px;
+        padding:3px;
+    }
+    .market-img-box-box {
+        height: 72vh;
+    }
+    .market-logo-box {
+        height: 180px;
+    }
+    .market-logo-font {
+        margin-top: 50px;
+    }
+    .market-detail-1 {
+        margin-top: 35px;
+    }
+    .common-logo-critic {
+        margin-left: 50px;
+    }
+    .critic-detail-box {
+        padding-left: 50px;
+    }
+     .critic-img-1 {
+        width: 90px;
+    }
 }

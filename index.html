@@ -11,8 +11,7 @@
     <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&amp;subset=korean" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700&amp;subset=korean" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Noto+Sans+KR:100,300,400,500|Noto+Serif+KR:400,500,600" rel="stylesheet">
     <link href="https://unpkg.com/ionicons@4.4.6/dist/css/ionicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="vendors/css/ionicons.min.css" type="text/css">
     <link rel="stylesheet" href="vendors/css/jquery.flipster.min.css" type="text/css">
@@ -22,65 +21,95 @@
     <header id="info">
         <nav>
             <div class="row2">
-                <img src="resources/css/img/logo.png" alt= "Artoo logo" class="logo clearfix js--wp-0">
+                <img src="resources/css/img/logo.png" alt= "Artoo logo" class="logo clearfix">
                 <ul class="main-nav clearfix js--main-nav">
                     <li><a href="#info">Info</a></li>
-                    <li><a href="#market">거래</a></li>
+                    <li class="js--wp-0"><a href="#market">거래</a></li>
                     <li><a href="#critic">크리틱</a></li>
-                    <li><a href="#comment">후기</a></li>
+                    <li><a href="#comment">전시</a></li>
                 </ul>
                     <a class="mobile-nav-icon js--nav-icon"><ion-icon name="menu" class="js--nav-icon-menu"></ion-icon></a>
                 
             </div>     
         </nav>
            <div class="info-detail-box">
-            <h3 class="info-detail">미술과 나를 연결하다<br><br></h3>
+            <h3 class="info-detail ">미술과 나를 연결하다<br><br></h3>
             <p class="info-detail-2">모두를 위한 미술 공간</p>
-            <a href="#"><img src="resources/css/img/appstore.png" alt="appstore link" class="header-appstore"></a>
-            <a href="#"><img src="resources/css/img/playstore.png" alt="playstore link" class="header-playstore"></a>
+            <div class="info-app-box">
+                <p>Download</p><br>&nbsp;
+                <a href="#"><img src="resources/css/img/appstore.png" alt="appstore link" class="header-appstore"></a>
+                <a href="#"><img src="resources/css/img/playstore.png" alt="playstore link" class="header-playstore"></a>
+            </div>
            </div>
     </header>
     
     <section class="section-market js--section-market" id="market">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 market-img-box">
-              <img src="resources/css/img/img_market1.png" alt="market1" class="market-img-1 js--wp-1 market-img">
-              <img src="resources/css/img/img_market6.png" alt="market6" class="market-img-6 js--wp-6 market-img">
-              <img src="resources/css/img/img_market3.png" alt="market3" class="market-img-3 js--wp-3 market-img"><br>
-              <img src="resources/css/img/img_market2.png" alt="market2" class="market-img-2 js--wp-2 market-img">
-              <img src="resources/css/img/img_market5.png" alt="market5" class="market-img-5 js--wp-5 market-img"><br>
-              <img src="resources/css/img/img_market7.png" alt="market7" class="market-img-7 js--wp-7 market-img">
-              <img src="resources/css/img/img_market4.png" alt="market4" class="market-img-4 js--wp-4 market-img">
-            </div>
-            <div class="col-md-4">
-                <div class="market-logo-box clearfix">
-                    <img src="resources/css/img/logo_font.png" alt= "Artoo logo" class="market-logo clearfix">
-                    <h3 class="market-logo-detail ">MARKET</h3>
+          <div class="market-img-box-box clearfix js-wp-market">
+            <div class="market-img-box clearfix">
+                <div class="market-img-row1">
+                    <img src="resources/css/img/img_market1.png" alt="market1" class="market-img-1 js--wp-1 market-img faster">
+                    <img src="resources/css/img/img_market2.png" alt="market2" class="market-img-2 js--wp-2 market-img faster">
+                    <img src="resources/css/img/img_market3.png" alt="market3" class="market-img-3 js--wp-3 market-img faster">
                 </div>
-                <p class="market-detail-1">미대생의 작품을 저렴하게 구매하세요!</p>
-                <p class="market-detail-2">전국 곳곳의 미대생이 <br>저렴하게 작품을<br>판매합니다</p>
+                <div class="market-img-row2">
+                    <img src="resources/css/img/img_market4.png" alt="market4" class="market-img-4 js--wp-4 market-img">
+                    <img src="resources/css/img/img_market5.png" alt="market5" class="market-img-5 js--wp-5 market-img">
+                    <img src="resources/css/img/img_market6.png" alt="market6" class="market-img-6 js--wp-6 market-img">
+                </div>
+                <div class="market-img-row3  clearfix">
+                    <img src="resources/css/img/img_market7.png" alt="market7" class="market-img-7 js--wp-7 market-img faster">
+                    <img src="resources/css/img/img_market8.png" alt="market8" class="market-img-8 js--wp-8 market-img faster">
+                    <img src="resources/css/img/img_market9.png" alt="market9" class="market-img-9 js--wp-9 market-img faster">
+                </div>
             </div>
-          </div>
-        </div>
+            </div>
+
+            <div class="market-logo-box-box">
+                <div class="market-logo-box">
+                   <div class="container">
+                        <div class="row">
+                            <div class="col-5">
+                               <div class="common-logo">
+                                        <img src="resources/css/img/logo_font.png" alt= "Artoo logo" class="logo-font market-logo-font clearfix js--wp-10"><br><br>
+                                    <div class="common-h3-box">
+                                        <h3 class="logo-detail market-logo-detail js--wp-10">MARKET</h3>
+                                    </div>
+                               </div>                        
+                            </div>
+                            <div class="col-7">
+                                <p class="market-detail-1">미대생의 작품을 저렴하게 구매하세요!</p>
+                                <p class="market-detail-2">전국 곳곳의 미대생이 <br>저렴하게 작품을<br>판매합니다</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
     </section>
     
     <section class="section-critic" id="critic">
-        <div class="container">
-          <div class="row">
-            <div class="col-7">
-               <div class="critic-trigger js--wp-c-0">&nbsp;</div>
+        <div class="critic-trigger js--wp-c-0">
+        <div class="container critic-divs">
+          <div class="row critic-divs">
+            <div class="col-8 critic-divs">
                <div class="critic-logo-box clearfix">
-                    <img src="resources/css/img/logo_font.png" alt= "Artoo logo" class="market-logo">
-                    <h3 class="critic-logo-detail ">CRITIC</h3>
-                </div>
-                <p class="critic-detail">미대생을 위한 커뮤니티, <br> 자유롭게 크리틱을 받을수 있는곳!</p>
+                   <div class="common-logo-critic">
+                       <img src="resources/css/img/logo_font.png" alt= "Artoo logo" class="critic-logo-font logo-font js--wp-11"><br><br>
+                       <div class="common-h3-box">
+                           <h3 class="critic-logo-detail logo-detail js--wp-11">CRITIC</h3>
+                       </div>
+                   </div>
+               <div class="critic-detail-box">
+                   <p class="critic-detail">미대생들을 위한 커뮤니티,<br>자유롭게 크리틱을 받을수 있는곳!</p>
+               </div>
+               </div>
             </div>
-            <div class="col-3">
+            <div class="col-4 critic-divs">
 <!--                <div class="js--wp-c-1"></div>-->
               <img src="resources/css/img/img_critic.png" alt="critic1" class="critic-img-1 js--wp-c-1" id="js--wp-c-1">
             </div>
           </div>
+        </div>
         </div>
     </section>
     
@@ -159,11 +188,49 @@
                         </div>
                     </div>
                 </li>
-                
-                
             </ul>
         </div>
-
+    </section>
+    <div class="comment-description">
+        <div class="container">
+            <div class="row">
+                <div class="col-6  ">
+                   <div class="common-logo">
+                   <div class="js--wp-12-p"></div>
+                    <img src="resources/css/img/logo_font.png" alt= "Artoo logo" class="logo-font js--wp-12"><br><br>
+                    <div class="common-h3-box">
+                    <h3 class="logo-detail js--wp-12">EXHIBITION</h3>
+                    </div>
+                   </div>
+                </div>
+                <div class="col-6">
+                    <p class="comment-detail">테마별로 매일 업데이트되는 <br>전시를 한손에서 감상하세요!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">iOS App</a></li>
+                    <li><a href="#">Android App</a></li>
+                </ul>
+            </div>
+            <div class="col span-2-of-2">
+                <ul class="social-links">
+                    <li><a target="_blank" href="https://www.instagram.com/artoo_o/"><ion-icon name="logo-facebook" class="logo-facebook"></ion-icon></a></li>
+                    <li><a target="_blank" href="https://www.facebook.com/artoo1313/"><ion-icon name="logo-instagram" class="logo-instagram"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-googleplus" class="logo-googleplus"></ion-icon></a></li>
+                    <li><a href="#"><ion-icon name="logo-twitter" class="logo-twitter"></ion-icon></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row2 ">
+            <p>Copyright &copy; 2019 by Artoo. All rights reserved.</p>
+        </div>
+    </footer>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://unpkg.com/ionicons@4.4.6/dist/ionicons.js"></script>
@@ -179,18 +246,16 @@
         $("#carousel").flipster({
                 style: 'carousel',
                 spacing: -0.5,
-                nav: true,
-                buttons:   true,
     start: 'center',
     fadeIn: 400,
     // [milliseconds]
     // Speed of the fade in animation after items have been setup
     pauseOnHover: true,
-    style: 'coverflow',
+    style: 'carousel',
     // [coverflow|carousel|flat|...]
     // Adds a class (e.g. flipster--coverflow) to the flipster element to switch between display styles
     // Create your own theme in CSS and use this setting to have Flipster add the custom class
-    spacing: -0.4,
+    spacing: -0.2,
     // [number]
     // Space between items relative to each item's width. 0 for no spacing, negative values to overlap
     click: true,
@@ -212,15 +277,5 @@
         });
     });
     </script>
-<!--
-    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="/SRC2/backfade/backgroundTransition.js"></script>
--->
-    <!--
-     jQuery first, then Popper.js, then Bootstrap JS 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
--->
 </body>
 </html>
