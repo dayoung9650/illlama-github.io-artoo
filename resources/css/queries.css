@@ -126,7 +126,7 @@
         height: 300px;
     }
     .market-img-box-box {
-        height: 90vh;
+        height: 97vh;
     }
     .header-appstore,
     .header-playstore {
@@ -148,7 +148,7 @@
    .market-img-4,
     .market-img-5,
     .market-img-6 {
-        width: 100px;
+        width: 90px;
         margin-top: 8px;
     }
     .market-img-1,
@@ -157,13 +157,13 @@
     .market-img-7,
     .market-img-8,
     .market-img-9 {
-        width: 70px;
+        width: 60px;
         margin-top:8px;
     }
     .market-img-row1,
     .market-img-row2,
     .market-img-row3 {
-        width: 100px;
+        width: 90px;
         padding:3px;
     }
     .market-img-box-box {
